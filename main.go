@@ -78,7 +78,6 @@ func startTraining(charName, charClass string) string {
 			fmt.Println(attack(charName, charClass))
 		case cmd == "defence":
 			fmt.Println(defence(charName, charClass))
-
 		case cmd == "special":
 			fmt.Println(special(charName, charClass))
 		default:
